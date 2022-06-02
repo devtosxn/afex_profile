@@ -71,6 +71,7 @@ THIRD_PARTY_APPS = [
     "allauth",
     "allauth.account",
     "allauth.socialaccount",
+    "allauth.socialaccount.providers.google",
 ]
 
 LOCAL_APPS = [
@@ -272,3 +273,14 @@ SOCIALACCOUNT_FORMS = {"signup": "afex_profile.users.forms.UserSocialSignupForm"
 
 # Your stuff...
 # ------------------------------------------------------------------------------
+SOCIALACCOUNT_PROVIDERS = {
+    "google": {
+        "SCOPE": [
+            "profile",
+            "email",
+        ],
+        "AUTH_PARAMS": {
+            "access_type": "online",
+        },
+    },
+}
