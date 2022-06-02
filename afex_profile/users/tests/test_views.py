@@ -11,11 +11,7 @@ from django.urls import reverse
 from afex_profile.users.forms import UserAdminChangeForm
 from afex_profile.users.models import User
 from afex_profile.users.tests.factories import UserFactory
-from afex_profile.users.views import (
-    UserRedirectView,
-    UserUpdateView,
-    user_detail_view,
-)
+from afex_profile.users.views import UserRedirectView, UserUpdateView, user_detail_view
 
 pytestmark = pytest.mark.django_db
 
