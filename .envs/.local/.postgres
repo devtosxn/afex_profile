@@ -1,0 +1,7 @@
+# PostgreSQL
+# ------------------------------------------------------------------------------
+POSTGRES_HOST=postgres
+POSTGRES_PORT=5432
+POSTGRES_DB=afex_profile
+POSTGRES_USER=nkVBZhJjWdIewMdUHsklRuGztpWINNcQ
+POSTGRES_PASSWORD=FJRIAszZ3WH33cEIyfBFsJtpJgCgqg85swVccOXTlgwF6taeWYF4KfsaxwACq45D
